@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>diald website</title>
+  <title>Diald - Premium Digital</title>
 
   <link rel="stylesheet" href="https://use.typekit.net/rti5zkb.css">
 
@@ -27,7 +27,13 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-{% block content %}{% endblock %}
+{% include 'includes/header.njk' %}
+
+<section role="main" class="page-container">
+  {% block content %}{% endblock %}
+</section>
+
+{% include 'includes/footer.njk' %}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41414902-5"></script>
