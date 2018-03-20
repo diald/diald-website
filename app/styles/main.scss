@@ -1,0 +1,19 @@
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/reset-css/_reset.scss";
+// endbower
+
+//Vendor
+
+//Scaffold
+@import "common/variables";
+@import "common/animations";
+@import "common/mixins";
+@import "common/buttons";
+@import "common/common";
+@import "common/forms";
+
+//Components
+
+//Pages
+@import "pages/coming-soon";

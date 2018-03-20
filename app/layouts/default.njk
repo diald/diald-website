@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Based in Canton, GA, Diald provides digital solutions for small business – premium in strategy and code.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diald - Premium Digital</title>
+
+  <link rel="stylesheet" href="https://use.typekit.net/rti5zkb.css">
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/reset-css/reset.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+{% include 'includes/header.njk' %}
+
+<section role="main" class="page-container">
+  {% block content %}{% endblock %}
+</section>
+
+{% include 'includes/footer.njk' %}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-41414902-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-41414902-5');
+</script>
+
+<!-- build:js scripts/vendor.js -->
+<!-- bower:js -->
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<script src="/bower_components/modernizr/modernizr.js"></script>
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js scripts/plugins.js -->
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+<!-- endbuild -->
+
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
