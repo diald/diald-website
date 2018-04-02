@@ -4,6 +4,7 @@
 $site-background: #ffffff;
 $site-background-alt: #d1d1d1;
 $site-background-dark: #838383;
+$site-background-darkest: #363636;;
 $font-dark: #363636;
 $font-light: #ffffff;
 
@@ -20,5 +21,11 @@ $twitter-blue: #56aeec;
 $linkedin-blue: #0077b5;
 
 //Fonts
-$font-family-default: "fira-sans",sans-serif;
+$font-family-default: "lato",sans-serif;
 $font-family-brand: "fenway-park-jf",sans-serif;
+
+
+//== Media queries breakpoints
+$tablet: "only screen and (min-width: #{$screen-sm-min})";
+$desktop: "only screen and (min-width: #{$screen-md-min})";
+$desktop-large: "only screen and (min-width: #{$screen-lg-min})";
