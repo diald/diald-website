@@ -8,6 +8,13 @@
       border-radius: 0;
     }
 
+    .container-fluid {
+      @media #{$tablet}{
+        padding-left: 125px;
+        padding-right: 125px;
+      }
+    }
+
     .navbar-toggle {
       border: none;
       background: transparent !important;
@@ -61,6 +68,11 @@
       box-shadow: none;
 
       .navbar-nav {
+
+        @media #{$tablet}{
+          float: right;
+        }
+
         li {
 
           a {
